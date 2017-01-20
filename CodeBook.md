@@ -37,3 +37,43 @@ The purpose of this project is to demonstrate your ability to collect, work with
 - A 561-feature vector with time and frequency domain variables. 
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
+
+### Code Variable Descriptions
+#####activityLabels 
+-Activity Labels Dataset
+-Holding information on the Activity Description loaded from activity_labels.txt file.
+#####featuresDetails 
+-Feature Details Dataset 
+-Holding information of the Feature Details Descriptions loaded from features.txt
+#####featuresInterest 
+-Of interest MEAN & STD DataSet 
+-Holding the of interest MEAN & STD from the Features Details.
+#####xTrain 
+-Training X DataSet
+-Holding the information retreived from X_train.txt
+#####yTrain 
+-Training Y DataSet
+-Holding the information retreived from Y_train.txt
+#####subjectTrain 
+-Training Subjects DataSet
+-Holding the information retreived from subject_train.txt
+#####trainSet 
+-The Complete Training Data Set
+Holding the information of xTrain ,YTrain , subjectTrain
+#####xTest 
+-Test X DataSet
+-Holding the information retreived from X_test.txt
+#####yTest 
+-Test Y DataSet
+-Holding the information retreived from Y_test.txt
+#####subjectTrain 
+-Training Subjects DataSet
+-Holding the information retreived from subject_test.txt
+#####testSet 
+-The Complete Test Data Set
+-Holding the information of xTest ,YTest , subjectTest
+#####allDataSet
+-Consolidated data set 
+Holding the complete data set consolidating Training & Test information.
+####tidyDataSet
+Cleansed Mean DataSet
